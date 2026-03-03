@@ -22,6 +22,33 @@ namespace Projeto1.Controllers
             int xXx = 10;
             int yXy = 20;
             xXx += yXy;
+            xXx = xXx + yXy;
+
+
+            //Operadores de incremento e decremento
+
+            //podemos incrementar de forma original
+
+            int luiz = x + 1;
+            luiz = x++; //incrementando
+            luiz = x--; //decrementa
+
+            //no entanto tem outra forma de controla a precedencia de incremento ou decremento se eu desejar que a incrementação ocorra antes de qualquer outra operação, colocacamos os operadores antes da variavel
+            luiz = ++luiz * 2;
+
+            //operadores de comparação
+            int num1 = 9;
+            int num2 = 9;
+            string resultado = string.Empty;
+
+            if(num1 = num2)
+            {
+                resultado = "Iguais";
+            }
+
+            //também podemos atribuir uma comparação diretamente a uma variavel
+
+            bool eIgual = (num1 == num2)?
 
             return View();
         }
