@@ -41,14 +41,14 @@ namespace Projeto1.Controllers
             int num2 = 9;
             string resultado = string.Empty;
 
-            if(num1 = num2)
+            if (num1 == num2)
             {
                 resultado = "Iguais";
             }
 
             //também podemos atribuir uma comparação diretamente a uma variavel
 
-            bool eIgual = (num1 == num2)?
+            bool eIgual = (num1 == num2);
 
             return View();
         }
