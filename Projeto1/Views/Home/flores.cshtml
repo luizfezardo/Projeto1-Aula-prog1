@@ -1,0 +1,28 @@
+﻿@model List<Projeto1.Models.Flor>
+
+<h2>Lista de Flores🌸🌼</h2>
+
+<table border= "1">
+    <tr>
+        <th>FlorID</th>
+        <th>Especie</th>
+        <th>Cor</th>
+        <th>Aroma</th>
+        <th>Tamanho</th>
+        <th>Precos</th>   
+        </tr>
+
+@foreach (var flor in Model)
+    {
+        <tr>
+            <td>@flor.Especie</td>
+            <td>@flor.Cor</td>
+            <td>@flor.Aroma</td>
+            <td>@flor.Tamanho</td>
+            <td>@flor.Precos</td>
+
+
+
+
+        </tr>
+    }
